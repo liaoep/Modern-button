@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Poppins');
+.btn{
+  font-family: Poppins;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  width: 400px;
+  height: 100px;
+  background-image: linear-gradient(90deg, rgb(0, 153, 255), rgb(0, 17, 255),rgb(0, 153, 255));
+  background-size: 300%;
+  align-items: center;
+  justify-content: center;
+  transition: background-position 1s ease;
+  font-size: 40pt;
+  border-box: box-sizing;
+  border-radius: 20px;
+  user-select: none;
+}
+.btn:hover{
+  background-position: right;
+}
+.btn:active{
+  background-position: center;
+}
